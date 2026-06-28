@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perkenalan - Febry Adam</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Icon -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+<!-- Background -->
+<div class="background"></div>
+
+<!-- Musik -->
+<audio id="music" autoplay loop>
+    <source src="https://www.image2url.com/r2/default/audio/1782641614797-b8c6398c-7a1e-4108-9651-dd98929300a8.mp3" type="audio/mpeg">
+</audio>
+
+<!-- Tombol Musik -->
+<button id="musicBtn" class="music-btn">
+    <i class="fa-solid fa-music"></i>
+</button>
+
+<!-- ================= HALAMAN 1 ================= -->
+
+<section class="page active" id="page1">
+
+<div class="card">
+
+<img
+class="profile"
+src="https://cdn.corenexis.com/f/ten956EGCOa.jpg"
+alt="Foto Profil">
+
+<h1>Halo, iam</h1>
+
+<h2>Febry Adam</h2>
+
+<p class="Age">
+<i class="fa-solid fa-cake-candles"></i>
+18 Years
+</p>
+
+<p class="deskripsi">
+Welcome to my website.
+Click continue to the next page.
+</p>
+
+<button class="next" onclick="showPage(2)">
+Continue
+<i class="fa-solid fa-arrow-right"></i>
+</button>
+
+</div>
+
+</section>
+
+<!-- ================= HALAMAN 2 ================= -->
+
+<section class="page" id="page2">
+
+<div class="card">
+
+<h1>About Me</h1>
+
+<div class="info">
+
+<div class="item">
+<i class="fa-solid fa-gamepad"></i>
+<h3>Hobi</h3>
+<p>Play A Game</p>
+</div>
+
+<div class="item">
+<i class="fa-solid fa-utensils"></i>
+<h3>Favorite Food</h3>
+<p>Mie Ayam</p>
+</div>
+
+<div class="item">
+<i class="fa-solid fa-location-dot"></i>
+<h3>Favorite Place</h3>
+<p>Warnet</p>
+</div>
+
+</div>
+
+<div class="button-group">
+
+<button onclick="showPage(1)">
+<i class="fa-solid fa-arrow-left"></i>
+Back
+</button>
+
+<button onclick="showPage(3)">
+Continue
+<i class="fa-solid fa-arrow-right"></i>
+</button>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= HALAMAN 3 ================= -->
+
+<section class="page" id="page3">
+
+<div class="card">
+
+<h1>🌐 Media Sosial </h1>
+
+<p>Please visit to my social media.</p>
+
+<div class="social">
+
+<a href="https://www.instagram.com/febryakunasli?igsh=MWpvN3RxaHVrZ2g4dQ%3D%3D&utm_source=qr" target="_blank" class="social-btn instagram">
+<i class="fab fa-instagram"></i>
+Instagram
+</a>
+
+<a href="www.tiktok.com/@vbryz21" target="_blank" class="social-btn tiktok">
+<i class="fab fa-tiktok"></i>
+TikTok
+</a>
+
+<a href="https://youtube.com/@vbryz2?si=q5dbEMrM2Az3gy2J" target="_blank" class="social-btn youtube">
+<i class="fab fa-youtube"></i>
+YouTube
+</a>
+
+</div>
+
+<div class="button-group">
+
+<button onclick="showPage(2)">
+<i class="fa-solid fa-arrow-left"></i>
+Back
+</button>
+
+<button onclick="showPage(4)">
+<i class="fa-solid fa-arrow-right"></i>
+Continue
+</button>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= HALAMAN 4 ================= -->
+
+<section class="page" id="page4">
+
+<div class="card">
+
+<h1>Thank You</h1>
+
+<p class="thanks">
+Thank you for see my website.
+
+pls rating us and kontol.
+</p>
+
+<button onclick="showPage(1)">
+<i class="fa-solid fa-house"></i>
+HOME
+</button>
+
+</div>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
